@@ -1,0 +1,232 @@
+.SK-Hosting{
+    position: relative;
+    overflow: hidden;
+    margin-top: 28px;
+    background-color: #282828;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.SK-Hosting-title{ 
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 30px;
+    z-index: 2;
+}
+.SK-Hosting-Cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 37px;
+}
+.SK-Hosting-Cards .Sk-basic,
+.SK-Hosting-Cards .SK-pro,
+.SK-Hosting-Cards .SK-Business,
+.SK-Hosting-Cards .SK-Enterprise{
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+    width: 22vw;
+    padding: 45px 0px 20px 25px;
+    box-shadow: 10px 10px 10px rgba(15, 15, 15, 0.45);
+    color: black;
+    background-color: #fff;
+}
+.Sk-basic::after {
+    content: "";
+    position: absolute;
+    background-color: #ff8500;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 100%;
+}
+.SK-Hosting-Cards .Sk-basic .gift {
+    width: calc(100% - 30px);
+    text-align: center;
+    font-size: 18px;
+    background-color: #fff;
+    color: #ff8500;
+    border: 2px solid #ff8500;
+    outline: none;
+    margin-left: 2;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.SK-Hosting-Cards .SK-pro .gift {
+    width: calc(100% - 30px);
+    text-align: center;
+    font-size: 18px;
+    background-color: #fff;
+    color: #a513ff;
+    border: 2px solid #a513ff;
+    outline: none;
+    margin-left: 2;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.SK-Hosting-Cards .SK-Business .gift {
+    width: calc(100% - 30px);
+    text-align: center;
+    font-size: 18px;
+    background-color: #fff;
+    color: #71aa27;
+    border: 2px solid #71aa27;
+    outline: none;
+    margin-left: 2;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.SK-Hosting-Cards .SK-Enterprise .gift {
+    width: calc(100% - 30px);
+    text-align: center;
+    font-size: 18px;
+    background-color: #fff;
+    color: #1d5edd;
+    border: 2px solid #1d5edd;
+    outline: none;
+    margin-left: 2;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.Sk-basic .SK-span {
+    padding-bottom: 20px;
+}
+.SK-pro .SK-span {
+    width: 73%;
+}
+
+.Sk-basic .SK-span,
+.SK-pro .SK-span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 12px;
+}
+.Sk-basic .Sk-title,
+.SK-pro .Sk-title,
+.SK-Business .Sk-title,
+.SK-Enterprise .Sk-title{
+    font-weight: bold;
+}
+.SK-Business .SK-span,
+.SK-Enterprise .SK-span {
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.SK-Business .SK-discount,
+.SK-Enterprise .SK-discount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.SK-Business .SK-discount span {
+    width: 50%;
+    font-size: 12px;
+    padding-right: 10px;
+}
+.SK-Enterprise .SK-discount span {
+    width: 50%;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.Sk-basic .SK-Deatails,
+.SK-pro .SK-Deatails,
+.SK-Business .SK-Deatails,
+.SK-Enterprise .SK-Deatails {
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 10px;
+    line-height: 1.6;
+}
+
+.Sk-basic .SK-Price,
+.SK-pro .SK-Price,
+.SK-Business .SK-Price,
+.SK-Enterprise .SK-Price {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.SK-pro::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 100%;
+    background-color: #a513ff;
+    ;
+}
+
+.SK-Business::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 100%;
+    background-color: #71aa27;
+}
+
+.SK-Enterprise::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 100%;
+    background-color: #1d5edd;
+}
+.SK-contact{
+    position: relative;
+    width: 65%;
+    text-align: center;
+    line-height: 22px;
+    color: #fff;
+    margin: 10px auto;
+}
+@media (min-width:993px) and (max-width:1200px) {
+    .Sk-basic, .SK-pro,
+    .SK-Business, .SK-Enterprise{
+        margin-bottom: 20px;
+        min-width: 30vw;
+    }
+}
+@media (min-width:769px) and (max-width:992px) {
+    .Sk-basic, .SK-pro,
+    .SK-Business, .SK-Enterprise{
+        min-width: 30vw;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width:577px) and (max-width:768px) {
+    .SK-Hosting-Cards .Sk-basic,
+    .SK-Hosting-Cards .SK-pro,
+    .SK-Hosting-Cards .SK-Business,
+    .SK-Hosting-Cards .SK-Enterprise{
+        width: 400px;
+        margin-bottom: 28px;
+    }
+    .SK-contact p {
+        padding: 0 20px;
+    }
+}
+@media (min-width:300px) and (max-width:576px) {
+    .SK-Hosting-Cards .Sk-basic,
+    .SK-Hosting-Cards .SK-pro,
+    .SK-Hosting-Cards .SK-Business,
+    .SK-Hosting-Cards .SK-Enterprise{
+        width: 400px;
+        margin-bottom: 28px;
+    }
+    .SK-contact p{
+        padding: 0 20px;
+    }
+}

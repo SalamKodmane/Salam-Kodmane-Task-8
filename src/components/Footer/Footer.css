@@ -1,0 +1,103 @@
+.SK-Footer{
+    background-color: rgb(38, 40, 42);
+    padding:35px 0px ;
+}
+ .SK-Footer-1{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.SK-Footer .SK-Footer-1 .SK-div{
+    color: white;
+    width: 15%;
+    padding: 12px;
+}
+.SK-Footer .SK-Footer-1 .SK-div h3 {
+    margin: 10px 0;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.SK-Footer .SK-Footer-1 .SK-div p {
+    font-weight: 200;
+    line-height: 1.6;
+}
+#address{
+    width: 400px;
+}
+.SK-Footer .SK-Footer-1  .SK-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    width: 15%;
+    padding: 15px;
+}
+.SK-Footer .SK-Footer-1  .SK-icons .icons a {
+    background-color: #cbcbcb;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    transition: all .5s;
+    margin: 5px 5px 0 0;   
+}
+.SK-Footer .SK-Footer-1  .SK-icons .icons a i {
+    color: black;
+}
+.SK-Footer .SK-footer-2 {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+}
+.SK-Footer .SK-footer-2 p {
+    width: 40%;
+}
+.SK-Footer .SK-footer-2 .line {
+    width: 50%;
+    height: 2px;
+    background-color: white;
+    margin-right: 10px;
+}
+@media (max-width:992px) {
+    .SK-Footer .SK-Footer-1 .SK-div {
+        width: 30%;
+    }
+    .SK-Footer .SK-Footer-1  .SK-icons {
+        width: 30%;
+    }
+}
+@media (max-width:768px) {
+    .SK-Footer .SK-Footer-1 .SK-div {
+        width: 40%;
+    }
+    .SK-Footer .SK-Footer-1  .SK-icons {
+        width: 40%;
+    }
+}
+@media (max-width:576px) {
+    .SK-Footer .SK-Footer-1 .SK-div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .SK-Footer .SK-Footer-1  .SK-icons {
+        width: 100%;
+    }
+    .SK-Footer .SK-Footer-1 .SK-div p {
+        text-align: center;
+    }
+    .SK-Footer .SK-footer-2 {
+        flex-direction: column;
+    }
+    .SK-Footer .SK-footer-2 p {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,154 @@
+.SK-Services-title{
+    width: 100%;
+    display: block;
+}
+.Services-title{
+    text-align: center;
+    padding: 150px 0 0 0 ;
+    font-weight: 500;
+}
+.Sk-Cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.SK-Card{
+    position: relative;
+    margin: 20px;
+    width: 700px;
+    border-radius: 40px; 
+    box-shadow: 0px 16px 40px rgba(86, 110, 134, 0.2);
+    padding: 32px;
+}
+.Branding-title{
+    font-weight: 400;
+    position: relative;
+}
+.Branding-title::before{
+    width: 125px;
+    content: '';
+    position: absolute;
+    height: 2px;
+    top: 30px;
+    background-color: #ff8500;
+}
+.Paragraph{
+    margin: 12px 0;
+}
+.Sk-Items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Sk-Items-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 22px 0 ;
+}
+.SK-Item{
+    padding-top: 7px;
+    font-size: 16px;
+    color: black;
+}
+.FocalImg{
+    width: 200px;
+}
+.Marketing-title{
+    font-weight: 400;
+    position: relative;
+}
+.Marketing-title::before{
+    width: 125px;
+    content: '';
+    position: absolute; 
+    height: 2px;
+    background-color: #a451ff;
+    top: 30px;
+} 
+.SK-Services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media (min-width:1200px) and (max-width:1300px){
+    .SK-Card{
+        width: 520px;
+    }
+    .SK-Item{
+        font-size: 16px;
+    }
+    .FocalImg{
+        width: 150px;
+    }
+}
+
+    @media (min-width:1024px) and (max-width:1200px){
+    .SK-Card{
+        width: 600px;
+    }
+    .Sk-Cards{
+        text-align: center;
+        flex-direction: column;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .Sk-Cards{
+        text-align: center;
+        flex-direction: column;
+    }
+    .SK-text{
+        margin: 5px;
+    }
+    .SK-Card{
+        width: 600px;
+    }
+    .FocalImg{
+        width: 200px;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+    .SK-Card{
+        width: 100%;
+    }
+    .Sk-Cards{
+        text-align: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .SK-text{
+        margin: 10px;
+    }
+    .Sk-Items-2{
+        flex-direction: column;
+    }
+    .Sk-Items{
+        flex-direction: column;
+    }
+}
+@media (min-width:300px) and (max-width:481px){
+    .Sk-Cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .SK-Card{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .Sk-Items-2{
+        flex-direction: column;
+    }
+    .Sk-Items{
+        flex-direction: column;
+    }
+    .SK-text{
+        margin: 10px;
+    }
+}

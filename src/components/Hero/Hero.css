@@ -1,0 +1,211 @@
+.SK-Home{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    overflow-x: clip;  
+    margin: 0;
+    padding: 0;
+}
+.SK-Title{
+    font-weight: bolder;
+    font-size: 30px !important;
+    color: #fb8500;
+    margin-bottom: 35px;
+}
+.SK-Hero p{
+    font-weight: 600;
+    font-size: 20px ;
+    line-height: 1.5;
+    width: 650px;
+}
+.SK-content{
+    width: 700px;
+    position: absolute;
+    bottom: 30%;
+    padding: 27px;
+}
+.SK-Hero-Footer{
+    width: 100%;
+    top: 80%;
+    position: absolute;
+    bottom: 170px;
+}
+.SK-Footer-img{
+    position: absolute;
+    width: 1536px;
+    top: 0px;
+}
+.SK-Game-img{
+    position: absolute;
+    top: -400px;
+    right: 14px;
+    width: 300px ;
+}
+.SK-Press-img{
+    position: absolute;
+    top: -160px;
+    right: 135px;
+}
+.SK-pattren-img{
+    position: absolute;
+    top: -420px;
+    right: 0;
+    z-index: -1;
+}
+.SK-Start-img {
+    width: 95px;
+    height: 35px;
+    z-index: 6;
+    top: -95px;
+    right: 360px;
+    font-size: 27px;
+    font-weight: 600;
+    position: absolute;
+    color: #fb8500;
+    text-decoration: none;
+}
+.Hero-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: -180px;
+    padding: 22px;
+}
+.Hero-contact p{
+    font-size: 22px;
+}
+.Contact-logo{
+    list-style: none;
+}
+.copy-right{
+    width: 100% !important;
+    color: white;
+}
+.Hero-contact ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+@media (min-width:1024px) and (max-width:1200px){
+    .SK-Game-img{
+        width: 250px;
+        top: -300px;
+    }
+    .SK-Press-img{
+        right: 115px;
+        top: -125px;
+    }
+    .SK-Title{
+        width: 500px !important;
+    }
+    .SK-Hero p{
+        width: 500px;
+    }
+    .SK-Start-img{
+        top: -70px;
+        right: 335px ;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .SK-Game-img {
+        width: 250px;
+        top: -300px;
+    }
+    .SK-Press-img{
+        top: -125px;
+        right: 115px;
+    }
+    .SK-Start-img{
+        top: -70px;
+        right: 337px ;
+    }
+    .SK-Title{
+        width: 500px !important;
+    }
+    .SK-Hero p{
+        font-size: 20px;
+        width: 400px;
+    }
+    .SK-content{
+        bottom: 20%;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+    .SK-Game-img {
+        width: 200px;
+        top: -220px;
+    }
+    .SK-Press-img{
+        top: -125px;
+        right: 115px;
+    }
+    .SK-Start-img{
+        top: -70px;
+        right: 337px ;
+    }
+    .Hero-contact{
+        flex-direction: column;
+        bottom: -210px;
+    }
+    .SK-Title{
+        font-size: 15px !important;
+    }
+    .SK-Hero p{
+        font-size: 15px !important;
+        width: 400px;
+    }
+    .SK-pattren-img{
+        width: 100px;
+        top: -300px;
+    }
+    .SK-content{
+        bottom: 42%;
+    }
+}
+@media (min-width:300px) and (max-width:481px){
+    .SK-Game-img {
+        width: 130px;
+        top: -110px;
+    }
+    .SK-Press-img{
+         width: 200px;   
+        top: -90px;
+        right: 35px;
+    }
+    .SK-Start-img{
+        top: -40px;
+        right: 180px ;
+        z-index: 0;
+    }
+    .SK-Title{
+        font-size: 13px !important;
+    }
+    .SK-Hero p{
+        font-size: 14px !important;
+        width: 250px;
+    }
+    .SK-pattren-img{
+        width: 70px;
+        top: -200px;
+    }
+    .Hero-contact{
+        flex-direction: column;
+        bottom: -210px;
+    }
+    .SK-content{
+        bottom: 35%;
+    }
+    .SK-content{
+        width: 300px;
+    }
+    .Hero-contact p{
+        font-size: 10px !important;
+    }
+}
